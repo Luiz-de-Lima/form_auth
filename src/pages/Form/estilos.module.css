@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 10px;
+  background: #fff;
+  padding: 5rem;
+  color: #344054;
+  border-radius: 10px;
+}
+.input {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 1px solid #c7cdd9;
+  border-radius: 8px;
+  color: #5a5858;
+}
+.input::placeholder {
+  color: #999;
+}
+.input:focus::placeholder {
+  color: transparent;
+}
+.input:focus {
+  border: 2px solid #d1e9ff;
+}
+.button {
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #1570ef;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+}
+.error {
+  color: red;
+}
+.title {
+  width: 100%;
+  color: #344054;
+  background: #000;
+}

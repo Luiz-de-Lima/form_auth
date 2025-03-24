@@ -1,0 +1,17 @@
+.titleContainer {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+}
+
+.titleLine {
+  width: 50px;
+  height: 3px;
+  background: #3498db;
+  margin: 0 auto;
+}
